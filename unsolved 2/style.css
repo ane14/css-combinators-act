@@ -3,4 +3,23 @@ body {
   line-height: 1.5;
   text-transform: uppercase;
 }
+.div1 p {
+  background-color: black;
+  color: white;
+}
+.div2 > p {
+  background-color: cyan;
+  color: red;
+}
 
+.div1 ~ p {
+  color: blue;
+}
+
+.div2 + p {
+  background-color: yellow;
+}
+
+.div1, .div2 {
+  border: 2px solid red;
+}
